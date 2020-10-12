@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration packages="com.spurtli.triathlon">
+  <Appenders>
+    <Console name="console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%highlight{%p} | Thread %threadId:%threadName | %d{DEFAULT} | %c{1.}: %msg\n"/>
+    </Console>
+  </Appenders>
+
+  <Loggers>
+    <Logger name="com.spurtli.triathlon" level="debug" additivity="false">
+      <AppenderRef ref="console"/>
+    </Logger>
+
+    <Root level="error" additivity="false">
+      <AppenderRef ref="console"/>
+    </Root>
+  </Loggers>
+</Configuration>
