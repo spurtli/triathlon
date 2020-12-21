@@ -33,7 +33,7 @@ dependencies {
   implementation("org.apache.logging.log4j:log4j-slf4j-impl:$log4jVersion")
 
   // Tests
-  testImplementation("junit:junit:4.12")
+  testImplementation("junit:junit:4.13.1")
 }
 
 tasks {
