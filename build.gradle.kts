@@ -1,6 +1,6 @@
 import org.gradle.jvm.tasks.Jar
 
-val beamVersion = "2.24.0"
+val beamVersion = "2.27.0"
 val log4jVersion = "2.13.3"
 
 plugins {
