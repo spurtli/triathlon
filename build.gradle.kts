@@ -5,7 +5,7 @@ val log4jVersion = "2.13.3"
 
 plugins {
   // Language
-  kotlin("jvm") version "1.4.10"
+  kotlin("jvm") version "1.4.30"
 
   // IDE
   idea
