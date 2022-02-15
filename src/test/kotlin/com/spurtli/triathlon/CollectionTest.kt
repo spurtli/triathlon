@@ -1,13 +1,10 @@
 package com.spurtli.triathlon
 
-import com.spurtli.triathlon.testUtils.Id
+import com.spurtli.triathlon.test.schemas.Id
 import org.apache.beam.sdk.testing.PAssert
 import org.apache.beam.sdk.testing.TestPipeline
 import org.apache.beam.sdk.transforms.Create
-import org.apache.beam.sdk.transforms.MapElements
-import org.apache.beam.sdk.transforms.SerializableFunction
 import org.apache.beam.sdk.values.Row
-import org.apache.beam.sdk.values.TypeDescriptors
 import org.junit.Rule
 import org.junit.Test
 

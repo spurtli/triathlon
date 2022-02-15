@@ -1,4 +1,4 @@
-package com.spurtli.triathlon.testUtils
+package com.spurtli.triathlon.test.schemas
 
 import org.apache.beam.sdk.schemas.Schema
 
