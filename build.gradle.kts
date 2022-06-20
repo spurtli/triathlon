@@ -11,7 +11,7 @@ plugins {
   idea
 
   // Documentation
-  id("org.jetbrains.dokka") version "1.4.10"
+  id("org.jetbrains.dokka") version "1.7.0"
 }
 
 repositories {
